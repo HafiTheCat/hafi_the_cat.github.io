@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes zoomRotate {
+	0%,
+	100% {
+		transform: scale(1.05) rotate(0deg);
+	}
+	50% {
+		transform: scale(1.1) rotate(2deg);
+	}
+}
+
+.animate-text {
+	animation: zoomRotate 4s ease-in-out infinite;
+}
+
+@keyframes hFadeIn {
+	0% {
+		opacity: 0.2;
+		transform: translateY(-10em);
+	}
+	80% {
+		transform: translateY(0.5em);
+	}
+	100% {
+		opacity: 1;
+		transform: translate(0);
+	}
+}
+
+.h-fade-in {
+	animation: hFadeIn 1s ease;
+}

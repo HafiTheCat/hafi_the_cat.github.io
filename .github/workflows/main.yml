@@ -13,7 +13,10 @@ jobs:
     steps:
       - name: Check out
         uses: actions/checkout@v3
-
+        
+      - name: Generate your content
+        run: npm install
+        
       - name: Generate your content
         run: npm run build
 

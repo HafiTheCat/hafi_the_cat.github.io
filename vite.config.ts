@@ -7,7 +7,8 @@ export default defineConfig({
 	plugins: [
 		svelte(),
 		hostnameRename({
-			hostname: "hafi_the_cat.github.io", // Replace with your desired hostname
+			// hostname: "hafi_the_cat.github.io", // Replace with your desired hostname
+			hostname: "", // Replace with your desired hostname
 		}),
 	],
 });

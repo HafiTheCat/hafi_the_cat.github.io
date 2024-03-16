@@ -1,0 +1,63 @@
+{
+	"name": "",
+	"children": [
+		{ "name": "World Lingo", "children": [{ "name": "German" }, { "name": "English" }] },
+		{
+			"name": "Computer Lingo",
+			"children": [
+				{ "name": "Rust" },
+				{ "name": "Typescript" },
+				{ "name": "Javascript" },
+				{ "name": "[ASP] clingo" },
+				{ "name": "Python" },
+				{ "name": "C#" },
+				{ "name": "C" },
+				{ "name": "Java" },
+				{ "name": "MIPS" },
+				{ "name": "WASM" },
+				{ "name": "C++" },
+				{ "name": "Lua" }
+			]
+		},
+		{
+			"name": "IDEs",
+			"children": [
+				{ "name": "VS Code (my beloved ❤)" },
+				{ "name": "Rider (C#)" },
+				{ "name": "IntelliJ (Java)" },
+				{ "name": "Android Studio" },
+				{ "name": "Jupyter Notebook" },
+				{ "name": "vim (rarely)" },
+				{ "name": "Arduino" }
+			]
+		},
+		{
+			"name": "Creative Tools",
+			"children": [
+				{
+					"name": "Design & Drawing",
+					"children": [
+						{ "name": "HTML5" },
+						{ "name": "Figma" },
+						{ "name": "Krita" },
+						{ "name": "paint.NET" },
+						{ "name": "Excalidraw" },
+						{ "name": "Aseprite" }
+					]
+				},
+				{
+					"name": "Textprocessing",
+					"children": [{ "name": "Markdown" }, { "name": "LaTeX" }, { "name": "Typst.app" }]
+				},
+				{ "name": "Video", "children": [{ "name": "Kdenlive" }] },
+				{ "name": "Audio", "children": [{ "name": "FL-Studio" }, { "name": "Audacity" }] },
+				{
+					"name": "3D",
+					"children": [{ "name": "Blender" }, { "name": "MagicaVoxel" }]
+				}
+			]
+		},
+        {"name":"Game Dev","children":[]},
+        {"name":"Coding Stuffs","children":[]}
+	]
+}

@@ -4,13 +4,13 @@ export default function hostnameRename(options) {
       transformIndexHtml(html) {
         // Modify asset URLs in HTML
         const modifiedHtml = html.replace(
-          /(<link[^>]*href=["'])([^"']+)/g,
+          /(<link[^>]*href=["']\/)([^"']+)/g,
           `$1${options.hostname}$2`
         ).replace(
-          /(<script[^>]*src=["'])([^"']+)/g,
+          /(<script[^>]*src=["']\/)([^"']+)/g,
           `$1${options.hostname}$2`
         ).replace(
-          /(<img[^>]*src=["'])([^"']+)/g,
+          /(<img[^>]*src=["']\/)([^"']+)/g,
           `$1${options.hostname}$2`
         );
         

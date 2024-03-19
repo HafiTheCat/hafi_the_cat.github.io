@@ -47,7 +47,12 @@
 				},
 				{
 					"name": "Textprocessing",
-					"children": [{ "name": "Markdown" }, { "name": "LaTeX" }, { "name": "Typst.app" }]
+					"children": [
+						{ "name": "Obsidian" },
+						{ "name": "Markdown" },
+						{ "name": "Typst.app" },
+						{ "name": "LaTeX" }
+					]
 				},
 				{ "name": "Video", "children": [{ "name": "Kdenlive" }] },
 				{ "name": "Audio", "children": [{ "name": "FL-Studio" }, { "name": "Audacity" }] },
@@ -57,7 +62,103 @@
 				}
 			]
 		},
-        {"name":"Game Dev","children":[]},
-        {"name":"Coding Stuffs","children":[]}
+		{
+			"name": "Game Dev",
+			"children": [
+				{ "name": "Bevy" },
+				{ "name": "Godot" },
+				{ "name": "Three.js" },
+				{ "name": "A-frame" },
+				{ "name": "Unity" }
+			]
+		},
+		{
+			"name": "Coding Stuffs",
+			"children": [
+				{
+					"name": "Frameworks",
+					"children": [
+						{
+							"name": "Frontend",
+							"children": [
+								{ "name": "Svelte" },
+								{ "name": "SvelteKit" },
+								{ "name": "Vue" },
+								{ "name": "Angular" },
+								{ "name": "Leptos" },
+								{ "name": "Yew" }
+							]
+						},
+						{
+							"name": "Backend",
+							"children": [
+								{ "name": "Express" },
+								{ "name": "Shuttle.rs" },
+								{ "name": "GraphQL" },
+								{ "name": "Axum" }
+							]
+						},
+						{
+							"name": "Multi-paradigm",
+							"children": [{ "name": "Electron" }, { "name": "Tauri" }]
+						},
+						{
+							"name": "Testing",
+							"children": [{ "name": "Vitest" }, { "name": "Jest" }, { "name": "Cypress" }]
+						},
+						{
+							"name": "Stylesheet",
+							"children": [
+								{ "name": "TailwindCSS" },
+								{ "name": "CSS3" },
+								{ "name": "less" },
+								{ "name": "scss" },
+								{ "name": "sass" }
+							]
+						}
+					]
+				},
+				{
+					"name": "DBs & Wraps",
+					"children": [
+						{ "name": "PostgreSQL" },
+						{ "name": "MySQL" },
+						{ "name": "MongoDB" },
+						{ "name": "Mongoose" },
+						{ "name": "CouchDB" },
+						{ "name": "Redis" },
+						{ "name": "Prisma" }
+					]
+				},
+				{
+					"name": "Tooling",
+					"children": [
+						{ "name": "cargo" },
+						{ "name": "pnpm" },
+						{ "name": "npm" },
+						{ "name": "yarn" },
+						{ "name": "Rollup" },
+						{ "name": "Vite" },
+						{ "name": "Nodemon" },
+						{ "name": "ts-node" },
+						{ "name": "ESLint" },
+						{ "name": "Prettier" },
+						{ "name": "AutoHotkey" },
+						{ "name": "Postman" }
+					]
+				},
+				{
+					"name": "Distributed Computing",
+					"children": [
+						{ "name": "Wireshark" },
+						{ "name": "Proxmox" },
+						{ "name": "Vagrant" },
+						{ "name": "VirtualBox" },
+						{ "name": "kubectl" },
+						{ "name": "minikube" }
+					]
+				}
+			]
+		}
 	]
 }

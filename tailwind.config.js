@@ -34,18 +34,7 @@ module.exports = {
 		},
 	},
 	plugins: [
-		require('@tailwindcss/container-queries'),
+		require("@tailwindcss/container-queries"),
 		require("@designbycode/tailwindcss-text-glitch"),
-		require("tailwind-heropatterns")({
-			patterns: [],
-			colors: {
-				default: "#9C92AC",
-				vermillion: "#ffedee", //also works with rgb(0,0,205)
-      },
-      opacity: {
-        default: "0.4",
-        "100": "1.0"
-      }
-		}),
 	],
 };

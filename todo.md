@@ -1,0 +1,11 @@
+# 2024 03
+- [x] save projects to local storage and if request is unseccessful put them there
+- [x] usability elements
+- [x] fade animation on all elements
+- [x] finish content
+- [x] make website responsive
+- [x] move app.css stuff to tailwind.css
+- [x] clear unused css styles
+- [x] fix console warnings
+- [x] check SEO add meta tags
+- [x] get projects from github

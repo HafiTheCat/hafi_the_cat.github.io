@@ -127,7 +127,7 @@
 
 <main class="w-full scroll-smooth text-mainfont">
 	<section id="hero" class="snap-start snap-normal w-full h-[90vh] bg-transparent select-none">
-		<div class="flex items-center justify-center mt-32 lg:mt-72 pl-16 pr-16 lg:pl-2 lg:pr-2">
+		<div class="flex items-center justify-center mt-32 lg:mt-[calc(15vh)] pl-16 pr-16 lg:pl-2 lg:pr-2">
 			<div
 				class="z-10 relative flex flex-col items-center justify-center h-fade-in max-w-prose xl:max-w-fit"
 			>

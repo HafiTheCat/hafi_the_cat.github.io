@@ -25,6 +25,9 @@ module.exports = {
 				slidein500: "slidein 1s ease-in 500ms both",
 				slidein700: "slidein 1s ease-in 700ms both",
 			},
+			screens: {
+				xs: "461px",
+			},
 		},
 		duration: {
 			fast: "1s",

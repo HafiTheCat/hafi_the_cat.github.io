@@ -8,7 +8,7 @@
 	id="history-chart"
 	class="w-full lg:grid lg:grid-cols-2 lg:gap-4 xl:justify-items-center content-margins"
 >
-	<div class="lg:hidden flex flex-row gap-2 mb-2">
+	<div class="lg:hidden flex flex-row gap-2 mb-2 flex-wrap w-full justify-between">
 		<Timeslice
 			from="from-orange-500"
 			to="to-orange-700"

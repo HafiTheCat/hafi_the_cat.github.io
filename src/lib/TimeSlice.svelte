@@ -399,13 +399,13 @@
 	</div>
 {:else}
 	<div
-		class=" h-16 rounded-lg w-full flex items-center justify-center bg-gradient-to-br {from} {to} hover:scale-95"
+		class="h-12  w-full xs:w-12 xs:grow rounded-lg sm:h-16 sm:w-16 flex items-center justify-center bg-gradient-to-br {from} {to} hover:scale-95"
 		on:click={open}
 		on:keydown={open}
 		tabindex="0"
 		role="button"
 	>
-		<span class="text-xl font-bold backdrop-blur-0 bg-black/50 rounded-lg p-2">
+		<span class="text-xl font-bold backdrop-blur-0 bg-black/50 rounded-lg pl-4 pr-4 xs:p-1 sm:p-2">
 			{#if slice == "html"}
 				2013
 			{:else if slice == "c#"}

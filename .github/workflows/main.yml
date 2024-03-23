@@ -20,6 +20,8 @@ jobs:
       - name: Generate your content
         run: npm run build
 
+      - name: Create CNAME file
+        run: echo "hafi.is-a.dev" > dist/CNAME
       - name: Publish current workdir (which contains generated content) to GitHub Pages
         uses: rayluo/github-pages-overwriter@v1.3
 

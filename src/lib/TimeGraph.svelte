@@ -81,11 +81,11 @@
 			{#key selected}
 				<Panel from="from-green-500" to="to-green-800" title="First Backend Service">
 					I first encountered the concept of a backend when developing a service for a
-					vehicle-sharing program. Having prior expertise with web technologies, adopting <strong
+					vehicle-sharing platform. Having prior expertise with web technologies, adopting <strong
 						>NodeJs</strong
 					>
-					was intuitive. I also learned about <strong>MongoDB</strong>, a database solution. For my
-					bachelor's project, I created a backend with a parser that converts between query
+					was intuitive. Additionally, I learned about <strong>MongoDB</strong>, a noSQL database solution. That I used in my
+					bachelor's project, in which I created a backend with a parser that converts between query
 					languages.
 				</Panel>
 			{/key}
@@ -94,8 +94,8 @@
 				<Panel from="from-blue-700" to="to-blue-900" title="Typing with TypeScript">
 					After experiencing strange <strong>JavaScript</strong> behaviors, I sought a solution and
 					discovered <strong>TypeScript</strong>. I really liked the versatility that its type
-					system provided.I experimented with writing generic functions instead of specialized ones,
-					resulting in improved code design and less discomfort.In the process, I developed a strong
+					system provided. Thus, I experimented with writing generic functions instead of specialized ones,
+					resulting in improved code design and less discomfort. In the process, I developed a strong
 					interest in its type system.
 				</Panel>
 			{/key}
@@ -105,7 +105,7 @@
 					To be honest, my first encounter with Python was really uncomfortable. We used it to
 					create graphs for a statistics question, but it didn't make sense. However, it quickly
 					became a crucial tool for rapid prototyping, particularly in machine learning and math
-					applications.
+					applications. If I like it, or not...
 				</Panel>
 			{/key}
 		{:else if selected == "rust"}
@@ -113,7 +113,7 @@
 				<Panel from="from-neutral-600" to="to-neutral-800" title="First Contact with Rust">
 					I originally learned about the <strong>Rust Programming Language</strong> while working on
 					a game project. I love Rust's strict compiler, which helps me write code that meets memory
-					safety guarantees. I have always been fascinated by rust ever since.
+					safety guarantees. I have always been fascinated by Rust ever since.
 				</Panel>
 			{/key}
 		{/if}

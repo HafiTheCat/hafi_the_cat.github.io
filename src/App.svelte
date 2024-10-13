@@ -12,6 +12,7 @@
 	import "./lib/Tailwind.css";
 	import Links from "./lib/Links.svelte";
 	import KnowledgeAccordion from "./lib/KnowledgeAccordion.svelte";
+	import Blog from "./lib/Blog.svelte";
 
 	onMount(() => {
 		// Get all the elements you want to show on scroll
@@ -252,7 +253,9 @@
 			<Links />
 		</div>
 	</section>
-
+	<section class="mb-24">
+		<Blog/>
+	</section>
 	<div class="w-full h-32 bg-gradient-to-r from-cyan-500 to-cyan-600 shadow-xl"></div>
 
 	<section id="path" class="snap-start snap-normal w-full h-fit select-none pb-16">

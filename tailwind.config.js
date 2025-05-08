@@ -1,4 +1,8 @@
-module.exports = {
+/** @type {import('tailwindcss').Config} */
+import containerQueries from "@tailwindcss/container-queries";
+import textGlitch from "@designbycode/tailwindcss-text-glitch";
+
+export default {
 	content: ["./index.html", "./src/**/*.{svelte,js,ts}"],
 	theme: {
 		extend: {
@@ -36,8 +40,5 @@ module.exports = {
 			ultra_slow: "4s",
 		},
 	},
-	plugins: [
-		require("@tailwindcss/container-queries"),
-		require("@designbycode/tailwindcss-text-glitch"),
-	],
+	plugins: [containerQueries, textGlitch],
 };

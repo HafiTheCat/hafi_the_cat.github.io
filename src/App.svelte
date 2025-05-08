@@ -275,7 +275,7 @@
 		<div
 			class="w-fit h-full flex flex-col items-center duration-300 justify-center rounded-lg content-margins"
 		>
-			<Header title="Current Interests" symbol="🌠" subtitle="2024" />
+			<Header title="Current Interests" symbol="🌠" subtitle="2025" />
 			<div
 				data-animate-type="animate-fadein"
 				class="w-fit h-fit flex flex-row lg:gap-8 xl:gap-16 mb-12 items-center flex-wrap justify-center duration-500 z-20"
@@ -283,11 +283,11 @@
 				<a href="https://www.rust-lang.org/">
 					<Interest label="Rust" slice="rust" />
 				</a>
-				<a href="https://www.typescriptlang.org/">
-					<Interest label="TypeScript" slice="ts" />
+				<a href="https://webassembly.org/">
+					<Interest label="WebAssembly" slice="wasm" />
 				</a>
-				<a href="https://potassco.org/">
-					<Interest label="Potassco Clingo" slice="clingo" />
+				<a href="https://astro.build/">
+					<Interest label="Astro" slice="astro" />
 				</a>
 				<a href="https://typst.app/">
 					<Interest label="Typst" slice="typst" />
@@ -296,6 +296,36 @@
 					<Interest label="Obsidian" slice="obsidian" />
 				</a>
 			</div>
+		</div>
+		<div class="w-fit h-full flex flex-col items-center duration-300 justify-center rounded-lg content-margins">
+			<details class = "flex flex-col justify-center items-center">
+				<summary class="font-black tracking-widest z-20 cursor-pointer mb-4">
+					⏳ Past Interests ⏳
+				</summary>
+				<div class="w-full bg-gradient-to-t to-main from-neutral-950/20 p-4 rounded-md flex flex-col justify-center items-center">
+				<span class="font-black tracking-widest z-20 mb-4">2024</span>
+				<div
+					data-animate-type="animate-fadein"
+					class="flex flex-row lg:gap-8 xl:gap-16 mb-12 items-center flex-wrap justify-center duration-500 z-20"
+				>
+					<a href="https://www.rust-lang.org/">
+						<Interest label="Rust" slice="rust" />
+					</a>
+					<a href="https://www.typescriptlang.org/">
+						<Interest label="TypeScript" slice="ts" />
+					</a>
+					<a href="https://potassco.org/">
+						<Interest label="Potassco Clingo" slice="clingo" />
+					</a>
+					<a href="https://typst.app/">
+						<Interest label="Typst" slice="typst" />
+					</a>
+					<a href="https://obsidian.md/">
+						<Interest label="Obsidian" slice="obsidian" />
+					</a>
+				</div>
+			</div>
+			</details>
 		</div>
 	</section>
 
@@ -334,10 +364,8 @@
 		class="bg-neutral-900 snap-start w-full h-96 content-margins flex justify-center select-none font-semibold text-xl"
 	>
 		<div>
-			For any enquiries please use my relay email: <code
-				class="bg-neutral-800 drop-shadow-md rounded-lg p-2 font-mono select-all"
-				>ufq0x4vbq@mozmail.com</code
-			>
+			For any enquiries please use my <a href="mailto:ufq0x4vbq@mozmail.com" class="underline">relay email</a>
+			
 		</div>
 	</footer>
 </main>

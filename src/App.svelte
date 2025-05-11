@@ -128,7 +128,9 @@
 
 <main class="w-full scroll-smooth text-mainfont">
 	<section id="hero" class="snap-start snap-normal w-full h-[90vh] bg-transparent select-none">
-		<div class="flex items-center justify-center mt-32 lg:mt-[calc(15vh)] pl-16 pr-16 lg:pl-2 lg:pr-2">
+		<div
+			class="flex items-center justify-center mt-32 lg:mt-[calc(15vh)] pl-16 pr-16 lg:pl-2 lg:pr-2"
+		>
 			<div
 				class="z-10 relative flex flex-col items-center justify-center h-fade-in max-w-prose xl:max-w-fit"
 			>
@@ -254,7 +256,7 @@
 		</div>
 	</section>
 	<section class="mb-24">
-		<Blog/>
+		<Blog />
 	</section>
 	<div class="w-full h-32 bg-gradient-to-r from-cyan-500 to-cyan-600 shadow-xl"></div>
 
@@ -283,48 +285,54 @@
 				<a href="https://www.rust-lang.org/">
 					<Interest label="Rust" slice="rust" />
 				</a>
-				<a href="https://webassembly.org/">
-					<Interest label="WebAssembly" slice="wasm" />
+				<a href="https://github.com/verus-lang/verus/">
+					<Interest label="Verus" slice="verus" />
 				</a>
+
 				<a href="https://astro.build/">
 					<Interest label="Astro" slice="astro" />
 				</a>
-				<a href="https://typst.app/">
-					<Interest label="Typst" slice="typst" />
+				<a href="https://webassembly.org/">
+					<Interest label="WebAssembly" slice="wasm" />
 				</a>
 				<a href="https://obsidian.md/">
 					<Interest label="Obsidian" slice="obsidian" />
 				</a>
 			</div>
 		</div>
-		<div class="w-fit h-full flex flex-col items-center duration-300 justify-center rounded-lg content-margins">
-			<details class = "flex flex-col justify-center items-center">
+		<div
+			class="w-fit h-full flex flex-col items-center duration-300 justify-center rounded-lg content-margins"
+		>
+			<details class="flex flex-col justify-center items-center">
 				<summary class="font-black tracking-widest z-20 cursor-pointer mb-4">
 					⏳ Past Interests ⏳
 				</summary>
-				<div class="w-full bg-gradient-to-t to-main from-neutral-950/20 p-4 rounded-md flex flex-col justify-center items-center">
-				<span class="font-black tracking-widest z-20 mb-4">2024</span>
 				<div
-					data-animate-type="animate-fadein"
-					class="flex flex-row lg:gap-8 xl:gap-16 mb-12 items-center flex-wrap justify-center duration-500 z-20"
+					class="w-full bg-gradient-to-t to-main from-neutral-950/20 p-4 rounded-md flex flex-col justify-center items-center"
 				>
-					<a href="https://www.rust-lang.org/">
-						<Interest label="Rust" slice="rust" />
-					</a>
-					<a href="https://www.typescriptlang.org/">
-						<Interest label="TypeScript" slice="ts" />
-					</a>
-					<a href="https://potassco.org/">
-						<Interest label="Potassco Clingo" slice="clingo" />
-					</a>
-					<a href="https://typst.app/">
-						<Interest label="Typst" slice="typst" />
-					</a>
-					<a href="https://obsidian.md/">
-						<Interest label="Obsidian" slice="obsidian" />
-					</a>
+					<span class="font-black tracking-widest z-20 mb-4">2024</span>
+					<div
+						data-animate-type="animate-fadein"
+						class="flex flex-row lg:gap-8 xl:gap-16 mb-12 items-center flex-wrap justify-center duration-500 z-20"
+					>
+						<a href="https://www.rust-lang.org/">
+							<Interest label="Rust" slice="rust" />
+						</a>
+						<a href="https://www.typescriptlang.org/">
+							<Interest label="TypeScript" slice="ts" />
+						</a>
+						<a href="https://potassco.org/">
+							<Interest label="Potassco Clingo" slice="clingo" />
+						</a>
+						<a href="https://typst.app/">
+							<Interest label="Typst" slice="typst" />
+						</a>
+
+						<a href="https://obsidian.md/">
+							<Interest label="Obsidian" slice="obsidian" />
+						</a>
+					</div>
 				</div>
-			</div>
 			</details>
 		</div>
 	</section>
@@ -364,8 +372,9 @@
 		class="bg-neutral-900 snap-start w-full h-96 content-margins flex justify-center select-none font-semibold text-xl"
 	>
 		<div>
-			For any enquiries please use my <a href="mailto:ufq0x4vbq@mozmail.com" class="underline">relay email</a>
-			
+			For any enquiries please use my <a href="mailto:ufq0x4vbq@mozmail.com" class="underline"
+				>relay email</a
+			>
 		</div>
 	</footer>
 </main>

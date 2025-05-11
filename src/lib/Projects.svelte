@@ -23,7 +23,7 @@
 		return new Promise((res, rej) => {
 			setTimeout(() => {
 				if (false) {
-					res(testdata.default);
+					res((testdata as any).default);
 				} else {
 					rej();
 				}
@@ -38,7 +38,7 @@
 					res(v as any[]);
 				})
 				.catch(() => {
-					let s = JSON.parse(localStorage.getItem("repos"));
+					let s = JSON.parse(localStorage.getItem("repos") ?? "");
 					if (s == undefined || s == null) rej();
 					console.log("Retrieved repository data from cache");
 					res(s);
